@@ -1,0 +1,1008 @@
+<!-- Обновена обвивка на страницата с обща контейнер структура -->
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерия</title>
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Вашият CSS файл -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Добавете тези линкове в head секцията след другите CSS файлове -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Тро<span>фолио</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Начало</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">За нас <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="gallery.html">Галерия</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Контакти</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Галерия секция - добавете това в основната част на вашата gallery.html между навигацията и футъра -->
+<div class="container mt-5 pt-5">
+    <div class="row mb-5">
+        <div class="col-12 text-center">
+            <h2 class="display-4 mb-4">Нашите <span class="text-primary">проекти</span></h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-images"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="lead">Вижте някои от най-интересните ни реализирани проекти.</p>
+        </div>
+    </div>
+
+    <!-- Филтри за галерията -->
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <div class="gallery-filter">
+                <button class="btn btn-outline-primary m-1 active" data-filter="all">Всички</button>
+                <button class="btn btn-outline-primary m-1" data-filter="cars">Автомобили</button>
+                <button class="btn btn-outline-primary m-1" data-filter="buildings">Сгради</button>
+                <button class="btn btn-outline-primary m-1" data-filter="others">Разни</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Галерия с изображения -->
+    <div class="row gallery-container">
+
+
+        <!-- Автомобили -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/bus1.jpg" alt="Брандиране на бус" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на фирмен бус</h5>
+                            <p>Цялостно облепяне с висококачествено фолио</p>
+                            <a href="images/gallery/bus1.jpg" class="gallery-popup" title="Брандиране на фирмен ван">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Автомобили -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/bus2.jpg" alt="Брандиране на бус" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на фирмен бус</h5>
+                            <p>Цялостно облепяне с висококачествено фолио</p>
+                            <a href="images/gallery/bus2.jpg" class="gallery-popup" title="Брандиране на фирмен ван">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Автомобили -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/bus3.jpg" alt="Брандиране на бус" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на фирмен бус</h5>
+                            <p>Цялостно облепяне с висококачествено фолио</p>
+                            <a href="images/gallery/bus3.jpg" class="gallery-popup" title="Брандиране на фирмен ван">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Автомобили -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/bus4.jpg" alt="Брандиране на бус" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на фирмен бус</h5>
+                            <p>Цялостно облепяне с висококачествено фолио</p>
+                            <a href="images/gallery/bus4.jpg" class="gallery-popup" title="Брандиране на фирмен ван">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Автомобили -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/bus5.jpg" alt="Брандиране на бус" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на фирмен бус</h5>
+                            <p>Цялостно облепяне с висококачествено фолио</p>
+                            <a href="images/gallery/bus5.jpg" class="gallery-popup" title="Брандиране на фирмен ван">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Автомобили -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/bus6.jpg" alt="Брандиране на бус" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на фирмен бус</h5>
+                            <p>Цялостно облепяне с висококачествено фолио</p>
+                            <a href="images/gallery/bus6.jpg" class="gallery-popup" title="Брандиране на фирмен ван">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Автомобили -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/bus7.jpg" alt="Брандиране на бус" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на фирмен бус</h5>
+                            <p>Цялостно облепяне с висококачествено фолио</p>
+                            <a href="images/gallery/bus7.jpg" class="gallery-popup" title="Брандиране на фирмен ван">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Автомобили -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/bus8.jpg" alt="Брандиране на бус" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на фирмен бус</h5>
+                            <p>Цялостно облепяне с висококачествено фолио</p>
+                            <a href="images/gallery/bus8.jpg" class="gallery-popup" title="Брандиране на фирмен ван">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car1.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car1.jpg" class="gallery-popup" title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car1.1.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car1.1.jpg" class="gallery-popup"
+                                title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car2.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car2.jpg" class="gallery-popup" title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car3.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car3.jpg" class="gallery-popup" title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car4.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car4.jpg" class="gallery-popup" title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car5.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car5.jpg" class="gallery-popup" title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car6.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car6.jpg" class="gallery-popup" title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car7.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car7.jpg" class="gallery-popup" title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/car8.jpg" alt="Брандиране на лек автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на лек автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/car8.jpg" class="gallery-popup" title="Брандиране на лек автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/truck1.jpg" alt=">Брандиране на тежкотоварен автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на тежкотоварен автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/truck1.jpg" class="gallery-popup"
+                                title=">Брандиране на тежкотоварен автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/truck1.1.jpg" alt=">Брандиране на тежкотоварен автомобил"
+                        class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на тежкотоварен автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/truck1.1.jpg" class="gallery-popup"
+                                title=">Брандиране на тежкотоварен автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/truck3.jpg" alt=">Брандиране на тежкотоварен автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на тежкотоварен автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/truck3.jpg" class="gallery-popup"
+                                title=">Брандиране на тежкотоварен автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="cars">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/truck4.jpg" alt=">Брандиране на тежкотоварен автомобил" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Брандиране на тежкотоварен автомобил</h5>
+                            <p>Облепяне с графики и лого</p>
+                            <a href="images/gallery/truck4.jpg" class="gallery-popup"
+                                title=">Брандиране на тежкотоварен автомобил">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building1.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building1.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building2.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building2.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building3.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building3.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building4.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building4.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building5.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building5.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building6.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building6.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building6.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building6.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building7.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building7.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="buildings">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/building8.jpg" alt="Брандиране на витрина" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>Витрина на магазин</h5>
+                            <p>Брандиране на витрина</p>
+                            <a href="images/gallery/building8.jpg" class="gallery-popup" title="Брандиране на витрина">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Сгради -->
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other1.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other1.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other1.1.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other1.1.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other4.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other4.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other2.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other2.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other3.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other3.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other6.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other6.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other7.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other7.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other8.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other8.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other9.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other9.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other10.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other10.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other11.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other11.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other12.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other12.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other13.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other13.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="images/gallery/other14.jpg" alt="Рекламd" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h5>
+                                <Рекламно облепяне на превозни средства>
+                            </h5>
+                            <p>Печат и монтаж на външна реклама на различни превозни
+                                средства и не само</p>
+                            <a href="images/gallery/other14.jpg" class="gallery-popup" title="Рекламни и лични">
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 gallery-item" data-category="others">
+                <div class="gallery-card">
+                    <div class="gallery-image">
+                        <img src="images/gallery/other14.jpg" alt="Реклама" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5>
+                                    <Рекламно облепяне на превозни средства>
+                                </h5>
+                                <p>Печат и монтаж на външна реклама на различни превозни
+                                    средства и не само</p>
+                                <a href="images/gallery/other14.jpg" class="gallery-popup" title="Рекламни и лични">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Футър секция - добавете това в края на вашия HTML, преди скриптовете -->
+        <footer class="bg-dark text-light pt-5 pb-3">
+            <div class="container">
+                <div class="row">
+                    <!-- Лого и информация за компанията -->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h5 class="text-uppercase mb-4">Трофолио</h5>
+                        <p class="small">Професионално брандиране на автомобили, сгради и рекламни материали с висококачествено фолио.</p>
+                        <div class="social-icons mt-4">
+                            <a href="#" class="text-light me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-light me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-light me-2"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Услуги -->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h5 class="mb-4">Услуги</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Брандиране на автомобили</a></li>
+                            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Облепяне на сгради</a></li>
+                            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Рекламни билбордове</a></li>
+                            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Дизайн на фолиа</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h5 class="mb-4">Бързи връзки</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="index.html" class="text-light text-decoration-none">Начало</a></li>
+                            <li class="mb-2"><a href="about.html" class="text-light text-decoration-none">За нас</a></li>
+                            <li class="mb-2"><a href="gallery.html" class="text-light text-decoration-none">Галерия</a></li>
+                            <li class="mb-2"><a href="contact.html" class="text-light text-decoration-none">Контакти</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Контакти -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-4">Контакти</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>гр.София, кв.Суходол, ул. „3-ти март" 18</li>
+                            <li class="mb-2"><i class="fas fa-phone me-2"></i> 089 919 3225</li>
+                            <li class="mb-2"><i class="fas fa-envelope me-2"></i> troqnn@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Разделителна линия -->
+                <hr class="mt-4 mb-3 bg-secondary">
+                
+                <!-- Авторски права и политики -->
+                <div class="row align-items-center">
+                    <div class="col-md-6 small">
+                        <p class="mb-md-0">© 2025 Трофолио. Всички права запазени.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end small">
+                        <a href="#" class="text-light text-decoration-none me-3">Политика за поверителност</a>
+                        <a href="#" class="text-light text-decoration-none">Общи условия</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+    <!-- Първо jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- После Magnific Popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            // Филтриране на галерията
+            $('.gallery-filter button').on('click', function () {
+                var filterValue = $(this).attr('data-filter');
+
+                // Активен бутон
+                $('.gallery-filter button').removeClass('active');
+                $(this).addClass('active');
+
+                if (filterValue === 'all') {
+                    $('.gallery-item').show(300);
+                } else {
+                    $('.gallery-item').hide(0);
+                    $('.gallery-item[data-category="' + filterValue + '"]').show(300);
+                }
+            });
+
+
+            // Изчакваме всички изображения да се заредят преди да инициализираме Magnific Popup
+            $(window).on('load', function () {
+                // Лайтбокс за галерията
+                if ($.fn.magnificPopup) {
+                    $('.gallery-popup').magnificPopup({
+                        type: 'image',
+                        gallery: {
+                            enabled: true,
+                            navigateByImgClick: true,
+                            preload: [0, 1],
+                            arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+                            tPrev: 'Предишна',
+                            tNext: 'Следваща'
+                        },
+                        zoom: {
+                            enabled: false,
+                            duration: 300
+                        },
+                        closeOnContentClick: false,
+                        closeBtnInside: true,
+                        mainClass: 'mfp-with-zoom mfp-img-mobile',
+                        image: {
+                            verticalFit: true,
+                            titleSrc: function (item) {
+                                return item.el.attr('title');
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+    </body>
+
+</html>
