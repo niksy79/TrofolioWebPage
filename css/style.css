@@ -321,7 +321,17 @@ footer ul li a:hover {
 
 @media (max-width: 576px) {
     .hero-section {
-        margin: 60px auto 60px;
+        margin: 60px auto 30px; /* Намаляваме долния марджин */
+        height: 40vh; /* Намаляме височината на героичната секция за мобилни */
+    }
+    
+    .carousel-background {
+        background-position: center center; /* Центрираме фоновото изображение */
+        background-size: cover; /* Гарантираме, че цялото изображение се покрива */
+    }
+    
+    .hero-content {
+        margin-top: 20px; /* Добавяме отстъп между карусела и съдържанието */
     }
     
     .hero-content h1 {
@@ -332,8 +342,61 @@ footer ul li a:hover {
         width: 60px;
         height: 4px;
     }
+    
+    /* Добавяме малко padding за по-добра четимост */
+    .hero-content .row {
+        padding: 0 10px;
+    }
 }
 
+/* За най-малките смартфони (320px - 479px) */
+@media (min-width: 320px) and (max-width: 479px) {
+    .hero-section {
+        height: 35vh; /* Още по-малка височина за най-малките екрани */
+        margin: 50px auto 20px;
+    }
+    
+    .carousel-background {
+        background-position: center 30%; /* Малко по-нагоре фокусирано */
+    }
+    
+    .hero-content {
+        margin-top: 15px;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.5rem; /* По-малък размер на заглавието */
+    }
+    
+    .hero-content p {
+        font-size: 0.9rem; /* По-малък размер на параграфа */
+    }
+    
+    .hero-content .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* За по-големи смартфони (480px - 576px) */
+@media (min-width: 480px) and (max-width: 576px) {
+    .hero-section {
+        height: 40vh; 
+        margin: 60px auto 25px;
+    }
+    
+    .carousel-background {
+        background-position: center 25%;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
 
 /*
 ABOUT PAGE
